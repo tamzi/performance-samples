@@ -6,6 +6,7 @@ plugins {
 // [START macrobenchmark_setup_android]
 android {
     // [START_EXCLUDE]
+    namespace 'com.example.macrobenchmark'
     compileSdkVersion 31
     defaultConfig {
         minSdkVersion 23
